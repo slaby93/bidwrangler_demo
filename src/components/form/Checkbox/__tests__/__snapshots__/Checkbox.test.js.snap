@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> CSS 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+}
+
+.c0 .Elements__Label-eTDSKI {
+  margin-right: 5px;
+}
+
+<CheckboxInput
+  className="test c0"
+  field="test"
+  id={null}
+  placeholder="test"
+>
+  TEST
+</CheckboxInput>
+`;
+
+exports[`<Checkbox /> HTML 1`] = `
+<div
+  className="test"
+>
+  <Label
+    for="test"
+  >
+    TEST
+  </Label>
+  <Checkbox
+    field="test"
+    id="test"
+  />
+</div>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Authorize /> CSS 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+@media (min-height:px) {
+  .c0 {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  .c0 {
+    margin-top: 5%;
+  }
+}
+
+<Authorize
+  className="c0"
+  location={Object {}}
+  match={
+    Object {
+      "url": "test1",
+    }
+  }
+/>
+`;
+
+exports[`<Authorize /> HTML 1`] = `
+<div
+  className="test"
+>
+  <Authorize__ShadowWrapper>
+    <Switch
+      location={Object {}}
+    >
+      <Route
+        component={[Function]}
+        exact={true}
+        path="path"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="path/register"
+      />
+      <Redirect
+        push={false}
+        to="path/"
+      />
+    </Switch>
+  </Authorize__ShadowWrapper>
+</div>
+`;

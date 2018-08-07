@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> CSS 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.c0:last-child {
+  margin-bottom: 2px;
+}
+
+.c0:after {
+  content: '';
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.c0 .Elements__Text-bPxmnO {
+  font-size: 17px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 1px;
+  padding: 0 10px;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.c0 .Elements__Text-bPxmnO {
+  font-size: 17px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 1px;
+  padding: 0 10px;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.c0 .Elements__Text-bPxmnO {
+  font-size: 17px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 1px;
+  padding: 0 10px;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.c0 .Elements__Text-bPxmnO {
+  font-size: 17px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 1px;
+  padding: 0 10px;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.c0 .Text__ErrorMessage-feJznh {
+  margin-top: 15px;
+  content: '';
+}
+
+<TextInput
+  className="test c0"
+  error={null}
+  id={null}
+  placeholder="test"
+>
+  TEST
+</TextInput>
+`;
+
+exports[`<Text /> HTML 1`] = `
+<div
+  className="test"
+>
+  <Text
+    field={null}
+    id={null}
+    placeholder="test"
+  >
+    TEST
+  </Text>
+</div>
+`;

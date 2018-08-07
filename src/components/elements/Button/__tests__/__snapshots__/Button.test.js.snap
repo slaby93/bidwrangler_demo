@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> CSS 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 10px;
+  min-height: 50px;
+  box-shadow: 0px 1px 8px 1px;
+  -webkit-transition: all .5s ease-out,opacity .5s ease-out;
+  transition: all .5s ease-out,opacity .5s ease-out;
+  outline: none;
+  cursor: pointer;
+}
+
+.c0:active {
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.c0:hover:not(:active) {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+<button
+  className="test c0"
+  value="a"
+>
+  TEST
+</button>
+`;
+
+exports[`<Button /> props disabled 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 10px;
+  min-height: 50px;
+  box-shadow: 0px 1px 8px 1px;
+  -webkit-transition: all .5s ease-out,opacity .5s ease-out;
+  transition: all .5s ease-out,opacity .5s ease-out;
+  outline: none;
+  cursor: pointer;
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.c0:active {
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.c0:hover:not(:active) {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+<button
+  className="test c0"
+  disabled={true}
+  value="a"
+>
+  TEST
+</button>
+`;
+
+exports[`<Button /> props grow 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 10px;
+  min-height: 50px;
+  box-shadow: 0px 1px 8px 1px;
+  -webkit-transition: all .5s ease-out,opacity .5s ease-out;
+  transition: all .5s ease-out,opacity .5s ease-out;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.c0:active {
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.c0:hover:not(:active) {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+<button
+  className="test c0"
+  value="a"
+>
+  TEST
+</button>
+`;
+
+exports[`<Button /> props noBorder 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 10px;
+  min-height: 50px;
+  box-shadow: 0px 1px 8px 1px;
+  -webkit-transition: all .5s ease-out,opacity .5s ease-out;
+  transition: all .5s ease-out,opacity .5s ease-out;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.c0:active {
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.c0:hover:not(:active) {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+<button
+  className="test c0"
+  value="a"
+>
+  TEST
+</button>
+`;
+
+exports[`<Button /> props round 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 10px;
+  min-height: 50px;
+  box-shadow: 0px 1px 8px 1px;
+  -webkit-transition: all .5s ease-out,opacity .5s ease-out;
+  transition: all .5s ease-out,opacity .5s ease-out;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.c0:active {
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.c0:hover:not(:active) {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+<button
+  className="test c0"
+  value="a"
+>
+  TEST
+</button>
+`;
+
+exports[`<Button /> props text 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 10px;
+  min-height: 50px;
+  box-shadow: 0px 1px 8px 1px;
+  -webkit-transition: all .5s ease-out,opacity .5s ease-out;
+  transition: all .5s ease-out,opacity .5s ease-out;
+  outline: none;
+  cursor: pointer;
+  display: inline;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+  height: initial;
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c0:active {
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.c0:hover:not(:active) {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.c0:active {
+  box-shadow: none;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+<button
+  className="test c0"
+  value="a"
+>
+  TEST
+</button>
+`;

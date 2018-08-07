@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "transform-async-to-generator",
+    "transform-class-properties",
+    "syntax-dynamic-import",
+    "transform-object-rest-spread",
+    "babel-plugin-styled-components"
+  ]
+}

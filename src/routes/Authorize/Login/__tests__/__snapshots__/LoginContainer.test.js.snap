@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginContainer /> basic render 1`] = `<Login__StyledComponent />`;
+
+exports[`<LoginContainer /> mapDispatchToProps result shape 1`] = `
+Object {
+  "onSubmit": [Function],
+}
+`;
+
+exports[`<LoginContainer /> mapStateToProps 1`] = `
+Object {
+  "isLogging": undefined,
+}
+`;
+
+exports[`<LoginContainer /> mapStateToProps 2`] = `
+Object {
+  "isLogging": undefined,
+}
+`;

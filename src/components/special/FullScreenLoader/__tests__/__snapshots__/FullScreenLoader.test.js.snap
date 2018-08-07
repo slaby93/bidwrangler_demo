@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FullScreenLoader /> CSS 1`] = `
+.c0 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 20%;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+
+<FullScreenLoader
+  className="c0"
+/>
+`;
+
+exports[`<FullScreenLoader /> HTML 1`] = `
+<div
+  className="test"
+>
+  <div
+    className="ball"
+  />
+  <div
+    className="ball"
+  />
+  <div
+    className="ball"
+  />
+  <div
+    className="ball"
+  />
+  <div
+    className="ball"
+  />
+  <div
+    className="ball"
+  />
+  <div
+    className="ball"
+  />
+</div>
+`;
